@@ -120,7 +120,17 @@ h1{margin:40px 0 20px;font-weight:700;font-size:38px;line-height:32px;}
   margin:0 0 20px 0;
   padding:20px 0 20px 30px;
   color:rgba(0,0,0,0.5);}
-.glyphs.character-mapping li{margin:0 30px 20px 0;display:inline-block;width:20px}
+.glyphs.character-mapping li{
+  margin:0 30px 20px 0;
+  display:inline-block;
+  width:35px;
+  text-align:center;
+}
+
+li p{
+  display: none;
+}
+
 .glyphs.character-mapping .icon{
 
 
