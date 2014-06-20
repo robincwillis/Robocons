@@ -13,6 +13,14 @@
 
 }
 
+body{
+  text-align: center;
+}
+
+p{
+  display: none;
+}
+
 [data-icon]:before {
   font-family: "robocons" !important;
   content: attr(data-icon);
@@ -43,57 +51,263 @@
 .icon-arrow-left:before {
   content: "a";
 }
-
 .icon-arrow-right:before {
   content: "b";
 }
-
 .icon-check:before {
   content: "c";
 }
-
 .icon-close:before {
   content: "d";
 }
-
 .icon-cloud:before {
   content: "e";
 }
-
 .icon-download:before {
   content: "f";
 }
-
 .icon-file:before {
   content: "g";
 }
-
 .icon-folder:before {
   content: "h";
 }
-
-.icon-ghost:before {
-  content: "i";
-}
-
 .icon-mail:before {
   content: "j";
 }
-
 .icon-minus:before {
   content: "k";
 }
-
 .icon-pencil:before {
   content: "l";
 }
-
 .icon-plus:before {
   content: "m";
 }
-
 .icon-trash:before {
   content: "n";
+}
+.icon-gear:before {
+  content: "o";
+}
+.icon-ghost:before {
+  content: "i";
+}
+.icon-admin:before {
+  content: "p";
+}
+.icon-rss:before {
+  content: "q";
+}
+.icon-star:before {
+  content: "r";
+}
+.icon-star2:before {
+  content: "s";
+}
+.icon-home:before {
+  content: "t";
+}
+.icon-balloon:before {
+  content: "u";
+}
+.icon-camera:before {
+  content: "v";
+}
+.icon-image:before {
+  content: "w";
+}
+.icon-user:before {
+  content: "x";
+}
+.icon-zoom:before {
+  content: "y";
+}
+.icon-zoom-in:before {
+  content: "z";
+}
+.icon-zoom-out:before {
+  content: "A";
+}
+.icon-menu2:before {
+  content: "B";
+}
+.icon-menu:before {
+  content: "C";
+}
+.icon-clock:before {
+  content: "D";
+}
+.icon-crosshair:before {
+  content: "E";
+}
+.icon-pin:before {
+  content: "F";
+}
+.icon-erasor:before {
+  content: "G";
+}
+.icon-refresh:before {
+  content: "H";
+}
+.icon-bomb:before {
+  content: "I";
+}
+.icon-heart:before {
+  content: "J";
+}
+.icon-alert:before {
+  content: "K";
+}
+.icon-alert2:before {
+  content: "L";
+}
+.icon-clock-arrow:before {
+  content: "M";
+}
+.icon-compose:before {
+  content: "N";
+}
+.icon-bulb-off:before {
+  content: "P";
+}
+.icon-bulb-on:before {
+  content: "Q";
+}
+.icon-exit:before {
+  content: "R";
+}
+.icon-flag:before {
+  content: "S";
+}
+.icon-denied2:before {
+  content: "T";
+}
+.icon-denied:before {
+  content: "U";
+}
+.icon-headphones:before {
+  content: "V";
+}
+.icon-grid:before {
+  content: "W";
+}
+.icon-graph:before {
+  content: "X";
+}
+.icon-labs:before {
+  content: "Y";
+}
+.icon-key:before {
+  content: "Z";
+}
+.icon-ipod:before {
+  content: "0";
+}
+.icon-paperclip:before {
+  content: "1";
+}
+.icon-pause:before {
+  content: "2";
+}
+.icon-play:before {
+  content: "3";
+}
+.icon-stop:before {
+  content: "4";
+}
+.icon-lock-closed:before {
+  content: "5";
+}
+.icon-lock-open:before {
+  content: "6";
+}
+.icon-power:before {
+  content: "7";
+}
+.icon-video:before {
+  content: "8";
+}
+.icon-volume-down:before {
+  content: "9";
+}
+.icon-volume-mute:before {
+  content: "!";
+}
+.icon-volume-up:before {
+  content: "\"";
+}
+.icon-prev:before {
+  content: "#";
+}
+.icon-prev2:before {
+  content: "$";
+}
+.icon-next:before {
+  content: "%";
+}
+.icon-next2:before {
+  content: "&";
+}
+.icon-orbit:before {
+  content: "'";
+}
+.icon-share:before {
+  content: "(";
+}
+.icon-signal:before {
+  content: ")";
+}
+.icon-microphone:before {
+  content: "*";
+}
+.icon-imac:before {
+  content: "+";
+}
+.icon-info:before {
+  content: ",";
+}
+.icon-info2:before {
+  content: "-";
+}
+.icon-ipad:before {
+  content: ".";
+}
+.icon-iphone:before {
+  content: "/";
+}
+.icon-skull:before {
+  content: ":";
+}
+.icon-journal:before {
+  content: "O";
+}
+.icon-a-sans-serif:before {
+  content: ";";
+}
+.icon-a-serif:before {
+  content: "<";
+}
+.icon-canvas:before {
+  content: "=";
+}
+.icon-angle:before {
+  content: ">";
+}
+.icon-paintbrush:before {
+  content: "?";
+}
+.icon-list:before {
+  content: "@";
+}
+.icon-list2:before {
+  content: "[";
+}
+.icon-skull:before {
+  content: "]";
+}
+.icon-todolist:before {
+  content: "^";
 }
 
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-family:inherit;font-size:100%;vertical-align:baseline}
